@@ -1,3 +1,2 @@
-# run every minute as root: minute hour dom month dow user command
-* * * * * root /usr/local/bin/python /app/cron/cron_generate_code.py >> /cron/last_code.txt 2>&1
-
+# run the 2fa cron every minute as root, write log to /var/log/cron_generate.log
+* * * * * root /usr/local/bin/python /app/cron/cron_generate_code.py >> /var/log/cron_generate.log 2>&1
