@@ -1,5 +1,17 @@
+# Encrypted seed (sensitive)
 encrypted_seed.txt
-data/seed.txt
-student_private.pem
+
+# Python cache
 __pycache__/
-logs/
+*.pyc
+
+# Environment files
+.env
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# Local runtime logs & backups
+cron/last_code.txt
+docker-compose.yml.bak
